@@ -6,7 +6,9 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-
+const team=players;//store the reference
+const team1=[...players];//copy of player
+const cap1={...players};//copy person object
 window.players = players;
 window.person = person;
 window.team = team;
